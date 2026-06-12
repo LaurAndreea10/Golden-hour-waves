@@ -1,8 +1,8 @@
 # Golden Hour Waves 🌅🌊
 
-**Golden Hour Waves** is a CSS-only animated ocean scene inspired by the warm cinematic mood of sunset light, glowing reflections and layered moving waves.
+**Golden Hour Waves** is an interactive canvas ocean scene inspired by golden-hour light, moving waves and a full day/night cycle.
 
-This repository is prepared for GitHub Pages and works as a lightweight portfolio / CodePen-style visual experiment.
+Move the mouse to stir the wind. Click or tap to create a splash.
 
 ## Live Demo
 
@@ -10,33 +10,38 @@ After GitHub Pages is enabled, the project will be available at:
 
 **https://laurandreea10.github.io/Golden-hour-waves/**
 
-## Visual Direction
+## Original Concept
 
-The project focuses on a more artistic scene rather than a generic landing page:
+This version follows the CodePen-style interactive visual experiment:
 
-- glowing golden-hour sunset;
-- layered animated ocean waves;
-- shimmering reflection over water;
-- soft film-grain atmosphere;
-- responsive full-screen composition;
-- reduced-motion support for accessibility.
+- full-screen `<canvas>` ocean;
+- animated wave layers;
+- dynamic day → sunset → night → dawn palette cycle;
+- glowing sun and moon states;
+- stars, clouds and birds;
+- surfer emoji riding the middle wave;
+- splash interaction on click / tap;
+- wind interaction on pointer move;
+- foam particles and night bioluminescent sparks;
+- reduced-motion support.
 
 ## Features
 
-- Full-screen animated CSS scene
-- Sunset gradient sky
-- Glowing sun and horizon line
-- Layered wave movement
-- Foam and shimmer effects
-- Portfolio and GitHub links
-- Mobile responsive layout
-- No build tools required
+- Responsive canvas rendering
+- Device-pixel-ratio support
+- Five wave layers
+- Interactive wind direction
+- Click / tap splash impulses
+- Ambient swell so the ocean never looks static
+- Mobile-friendly touch interaction
+- No build step required
 
 ## Tech Stack
 
 - HTML5
-- CSS3 animations
-- Vanilla static page
+- CSS3
+- Canvas API
+- Vanilla JavaScript
 - GitHub Pages
 
 ## Project Structure
