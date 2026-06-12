@@ -1,8 +1,8 @@
 # Golden Hour Waves 🌅🌊
 
-**Golden Hour Waves** is a small front-end visual project inspired by the warm, cinematic feeling of sunset light over moving water.
+**Golden Hour Waves** is a CSS-only animated ocean scene inspired by the warm cinematic mood of sunset light, glowing reflections and layered moving waves.
 
-It is designed as a lightweight GitHub Pages / CodePen-style showcase: simple, responsive, atmospheric, and easy to extend.
+This repository is prepared for GitHub Pages and works as a lightweight portfolio / CodePen-style visual experiment.
 
 ## Live Demo
 
@@ -10,31 +10,33 @@ After GitHub Pages is enabled, the project will be available at:
 
 **https://laurandreea10.github.io/Golden-hour-waves/**
 
-## Concept
+## Visual Direction
 
-Golden Hour Waves focuses on:
+The project focuses on a more artistic scene rather than a generic landing page:
 
-- a soft sunset / golden-hour visual mood;
-- animated wave-inspired motion;
-- a clean landing-page structure;
-- mobile-friendly layout;
-- simple static hosting through GitHub Pages.
+- glowing golden-hour sunset;
+- layered animated ocean waves;
+- shimmering reflection over water;
+- soft film-grain atmosphere;
+- responsive full-screen composition;
+- reduced-motion support for accessibility.
 
 ## Features
 
-- Responsive hero section
-- Warm gradient background
-- Animated decorative waves
-- Accessible semantic HTML
-- Lightweight CSS-only motion
+- Full-screen animated CSS scene
+- Sunset gradient sky
+- Glowing sun and horizon line
+- Layered wave movement
+- Foam and shimmer effects
+- Portfolio and GitHub links
+- Mobile responsive layout
 - No build tools required
-- Ready for GitHub Pages
 
 ## Tech Stack
 
 - HTML5
-- CSS3
-- Vanilla JavaScript
+- CSS3 animations
+- Vanilla static page
 - GitHub Pages
 
 ## Project Structure
@@ -43,6 +45,7 @@ Golden Hour Waves focuses on:
 Golden-hour-waves/
 ├── index.html
 ├── README.md
+├── .nojekyll
 └── .github/
     └── workflows/
         └── pages.yml
@@ -50,25 +53,18 @@ Golden-hour-waves/
 
 ## How to Run Locally
 
-1. Clone the repository:
-
 ```bash
 git clone https://github.com/LaurAndreea10/Golden-hour-waves.git
-```
-
-2. Open the folder:
-
-```bash
 cd Golden-hour-waves
 ```
 
-3. Open `index.html` in your browser.
-
-No installation is required.
+Then open `index.html` in your browser.
 
 ## GitHub Pages Deployment
 
-This repository includes a GitHub Pages workflow. The intended publishing setup is:
+This repository includes a GitHub Pages workflow.
+
+Recommended setup:
 
 - Source: **GitHub Actions**
 - Branch: **main**
